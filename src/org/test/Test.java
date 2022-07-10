@@ -18,7 +18,6 @@ public class Test {
 		findElement2.sendKeys("1234");
 		WebElement findElement3 = driver.findElement(By.name("login"));
 		findElement3.click();
-		driver.quit();
 	}
 	
 }
